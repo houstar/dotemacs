@@ -260,7 +260,7 @@ _m_: smart
 ;; Jump to things in Emacs tree-style
 (use-package avy
   :demand
-  :bind (("C-:" . avy-goto-char-timer)
+  :bind (("C-\\" . avy-goto-char-timer)
          :map isearch-mode-map
          ("C-j" . avy-isearch))
   :config
