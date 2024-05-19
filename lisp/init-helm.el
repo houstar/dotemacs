@@ -49,7 +49,7 @@
          ("M-o" . helm-occur-from-isearch))
   :config
   ;; General settings
-  (require 'helm-config)
+  ;;(require 'helm-config)
   (global-set-key (kbd "C-c h") 'helm-command-prefix)
   (global-unset-key (kbd "C-x c"))
   (helm-autoresize-mode 1)
